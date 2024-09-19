@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="AOTSupportScanner.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -908,4 +909,5 @@ namespace OdinSerializer.Editor
     }
 }
 
+#endif
 #endif

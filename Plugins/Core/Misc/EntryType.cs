@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="EntryType.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -109,3 +110,4 @@ namespace OdinSerializer
         ExternalReferenceByString = 16
     }
 }
+#endif

@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="IExternalIndexReferenceResolver.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -40,3 +41,4 @@ namespace OdinSerializer
         bool CanReference(object value, out int index);
     }
 }
+#endif

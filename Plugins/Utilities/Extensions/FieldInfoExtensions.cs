@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="FieldInfoExtensions.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -68,3 +69,4 @@ namespace OdinSerializer.Utilities
         }
     }
 }
+#endif

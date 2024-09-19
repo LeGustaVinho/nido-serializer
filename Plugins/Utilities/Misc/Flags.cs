@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="Flags.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -106,3 +107,4 @@ namespace OdinSerializer.Utilities
         public const BindingFlags AllMembers = StaticInstanceAnyVisibility | BindingFlags.FlattenHierarchy;
     }
 }
+#endif

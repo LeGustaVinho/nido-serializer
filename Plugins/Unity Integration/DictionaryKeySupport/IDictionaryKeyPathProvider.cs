@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="IDictionaryKeyPathProvider.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -73,3 +74,4 @@ namespace OdinSerializer
         int Compare(T x, T y);
     }
 }
+#endif

@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="ISelfFormatter.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -41,3 +42,4 @@ namespace OdinSerializer
         void Deserialize(IDataReader reader);
     }
 }
+#endif

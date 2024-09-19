@@ -1,4 +1,5 @@
-﻿namespace OdinSerializer
+#if NIDO_SERIALIZER
+namespace OdinSerializer
 {
     /// <summary>
     /// The policy for handling errors during serialization and deserialization.
@@ -21,3 +22,4 @@
         ThrowOnWarningsAndErrors
     }
 }
+#endif

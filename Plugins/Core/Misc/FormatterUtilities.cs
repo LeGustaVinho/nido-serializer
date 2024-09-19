@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="FormatterUtilities.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -400,3 +401,4 @@ You probably need to assign the nullValue variable of the {0} script in the insp
         }
     }
 }
+#endif

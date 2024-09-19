@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="JsonConfig.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -79,3 +80,4 @@ namespace OdinSerializer
         public const string EXTERNAL_STRING_REF_SIG_FIXED = "$fstrref";
     }
 }
+#endif

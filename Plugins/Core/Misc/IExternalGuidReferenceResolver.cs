@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="IExternalGuidReferenceResolver.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -50,3 +51,4 @@ namespace OdinSerializer
         bool CanReference(object value, out Guid guid);
     }
 }
+#endif

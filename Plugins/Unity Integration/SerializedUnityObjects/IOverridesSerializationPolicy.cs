@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="IOverridesSerializationPolicy.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -29,3 +30,4 @@ namespace OdinSerializer
         bool OdinSerializesUnityFields { get; }
     }
 }
+#endif

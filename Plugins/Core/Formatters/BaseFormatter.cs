@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="BaseFormatter.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -727,3 +728,4 @@ namespace OdinSerializer
         protected abstract void SerializeImplementation(ref object value, IDataWriter writer);
     }
 }
+#endif

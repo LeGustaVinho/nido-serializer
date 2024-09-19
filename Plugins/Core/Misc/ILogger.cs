@@ -1,4 +1,5 @@
-﻿namespace OdinSerializer
+#if NIDO_SERIALIZER
+namespace OdinSerializer
 {
     using System;
 
@@ -26,3 +27,4 @@
         void LogException(Exception exception);
     }
 }
+#endif

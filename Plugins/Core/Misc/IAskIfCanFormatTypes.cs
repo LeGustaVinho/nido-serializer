@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="IAskIfCanFormatTypes.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -25,3 +26,4 @@ namespace OdinSerializer
         bool CanFormatType(Type type);
     }
 }
+#endif

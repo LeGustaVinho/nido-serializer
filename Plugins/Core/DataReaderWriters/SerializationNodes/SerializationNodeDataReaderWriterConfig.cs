@@ -1,4 +1,5 @@
-﻿//-----------------------------------------------------------------------
+#if NIDO_SERIALIZER
+//-----------------------------------------------------------------------
 // <copyright file="SerializationNodeDataReaderWriterConfig.cs" company="Sirenix IVS">
 // Copyright (c) 2018 Sirenix IVS
 //
@@ -28,3 +29,4 @@ namespace OdinSerializer
         public const string NodeIdSeparator = "|";
     }
 }
+#endif
