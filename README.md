@@ -1,6 +1,6 @@
 # Nido Serializer
 
-[Odin Serializer](https://github.com/TeamSirenix/odin-serializer "Odin Serializer") fork compatiple with Unity Package Manager
+[Odin Serializer](https://github.com/TeamSirenix/odin-serializer "Odin Serializer") fork compatible with Unity Package Manager
 
 **Note:** If your project already uses [Odin Inspector](https://odininspector.com/ "Odin Inspector"), remember that it already incorporates Odin Serializer, making the use of this package unnecessary.
 
