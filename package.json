@@ -1,7 +1,7 @@
 {
   "name": "com.legustavinho.legendary-tools-nido-serializer",
   "displayName": "Legendary Tools - Nido Serializer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2018.4",
   "type": "library",
   "keywords": [],
